@@ -1,0 +1,911 @@
+{
+	"info": {
+		"_postman_id": "da846667-457c-4a63-931a-d478d10524d4",
+		"name": "160_Store_Api_JSONSERVER",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25634755"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "REGISTER",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('Set accessToken into collection variable', () => {\r",
+									"    var res = pm.response.json();\r",
+									"\r",
+									"    var id = res.data.id;\r",
+									"    var email = res.data.Email;\r",
+									"    var password = res.data.Password;\r",
+									"\r",
+									"\r",
+									"    pm.collectionVariables.set(\"userId\", id);\r",
+									"    pm.collectionVariables.set('email', email);\r",
+									"    pm.collectionVariables.set('passwod', password);\r",
+									"\r",
+									"})\r",
+									"\r",
+									"\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"FirstName\": \"{{$randomFirstName}}\",\r\n    \"LastName\": \"{{$randomLastName}}\",\r\n    \"DoB\": \"11/12/2013\",\r\n    \"Phone\": \"123456789\",\r\n    \"Email\": \"an913@gmail.com\",\r\n    \"Password\": \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{myIP}}/register",
+							"host": [
+								"{{myIP}}"
+							],
+							"path": [
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "REGISTER with exist email",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"FirstName\": \"{{$randomFirstName}}\",\r\n    \"LastName\": \"{{$randomLastName}}\",\r\n    \"DoB\": \"11/2/2012\",\r\n    \"Phone\": \"113\",\r\n    \"Email\": \"an913@gmail.com\",\r\n    \"Password\": \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{myIP}}/register",
+							"host": [
+								"{{myIP}}"
+							],
+							"path": [
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "LOGIN",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('Set accessToken into collection variable',()=>{\r",
+									"        var token = pm.response.json().data.access_token;\r",
+									"        console.log(token);\r",
+									"        pm.collectionVariables.set('access_token',token);\r",
+									"})"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Email\": \"{{email}}\",\r\n    \"Password\": \"{{passwod}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{myIP}}/login",
+							"host": [
+								"{{myIP}}"
+							],
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "LOGIN with wrong email",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Email\": \"an91123@gmail.com\",\r\n    \"Password\": \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{myIP}}/login",
+							"host": [
+								"{{myIP}}"
+							],
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List of Users",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{myIP}}/auth/users",
+							"host": [
+								"{{myIP}}"
+							],
+							"path": [
+								"auth",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find user by Email",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{myIP}}/auth/users/:email",
+							"host": [
+								"{{myIP}}"
+							],
+							"path": [
+								"auth",
+								"users",
+								":email"
+							],
+							"variable": [
+								{
+									"key": "email",
+									"value": "{{email}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update user",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"FirstName\": \"Le new\",\r\n    \"LastName\": \"An new\",\r\n    \"DoB\": \"11/2/2012002\",\r\n    \"Phone\": \"9090090\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{myIP}}/auth/users/:id",
+							"host": [
+								"{{myIP}}"
+							],
+							"path": [
+								"auth",
+								"users",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "{{userId}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Products",
+			"item": [
+				{
+					"name": "GET List of Products",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"List of Products request status\",()=>{\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"//id\r",
+									"const response= pm.response.json();\r",
+									"var productIDs= _.map(pm.response.json(),'id');\r",
+									"console.log(productIDs);\r",
+									"pm.globals.set(\"productIDs\",productIDs);\r",
+									"\r",
+									"for(let productID of productIDs){\r",
+									"    console.log(productID);\r",
+									"}\r",
+									"\r",
+									"const randomProductID =Math.floor(Math.random()*productIDs.length);\r",
+									"console.log( randomProductID,productIDs[randomProductID]);\r",
+									"pm.collectionVariables.set(\"productID\",productIDs[randomProductID]);\r",
+									"pm.environment.set(\"productID\",productIDs[randomProductID]);\r",
+									"\r",
+									"//category\r",
+									"var categories= _.map(pm.response.json(),'category');\r",
+									"console.log(categories);\r",
+									"pm.globals.set(\"categories\",categories);\r",
+									"\r",
+									"for(let category of categories){\r",
+									"    console.log(category);\r",
+									"}\r",
+									"\r",
+									"const randomCategories =Math.floor(Math.random()*categories.length);\r",
+									"console.log(randomCategories,categories[randomCategories]);\r",
+									"pm.collectionVariables.set(\"category\",categories[randomCategories]);\r",
+									"pm.environment.set(\"category\",categories[randomCategories]);\r",
+									"\r",
+									"//type\r",
+									"var types= _.map(pm.response.json(),'type');\r",
+									"console.log(types);\r",
+									"pm.globals.set(\"types\",types);\r",
+									"\r",
+									"for(let type of types){\r",
+									"    console.log(type);\r",
+									"}\r",
+									"\r",
+									"const randomTypes =Math.floor(Math.random()*types.length);\r",
+									"console.log( randomTypes,types[randomTypes]);\r",
+									"pm.collectionVariables.set(\"type\",types[randomTypes]);\r",
+									"pm.environment.set(\"type\",types[randomTypes]);\r",
+									"\r",
+									"\r",
+									"\r",
+									"\r",
+									"\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/products",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET  Product by ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/products/:productID",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"products",
+								":productID"
+							],
+							"variable": [
+								{
+									"key": "productID",
+									"value": "{{productID}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET  Product by  Category",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/products?category={{category}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"products"
+							],
+							"query": [
+								{
+									"key": "category",
+									"value": "{{category}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET  Product by  Type",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/products?type={{type}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"products"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "{{type}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Order",
+			"item": [
+				{
+					"name": "Order a product",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var res =pm.response.json();\r",
+									"pm.collectionVariables.set(\"orderId\",res.data.id);\r",
+									"\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"customerName\": \"{{$randomFullName}}\",\r\n    \"customerPhone\": \"{{$randomPhoneNumber}}\",\r\n    \"customerAddress\": \"35 TDH St, Hanoi, Vietnam\",\r\n    \"productId\": 5,\r\n    \"quantity\": 3\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{myIP}}/auth/orders",
+							"host": [
+								"{{myIP}}"
+							],
+							"path": [
+								"auth",
+								"orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Order a product false",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"customerName\": \"Le Hoang An\",\r\n    \"customerPhone\": \"0123456789\",\r\n    \"customerAddress\": \"31 TDH St, Hcm, Vietnam\",\r\n    \"productId\": 4,\r\n    \"quantity\": 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{myIP}}/auth/orders",
+							"host": [
+								"{{myIP}}"
+							],
+							"path": [
+								"auth",
+								"orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "API get an order",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{myIP}}/auth/orders/:id",
+							"host": [
+								"{{myIP}}"
+							],
+							"path": [
+								"auth",
+								"orders",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "{{orderId}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE order",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"customerName\": \" An New \",\r\n    \"customerPhone\": \"111112213\",\r\n    \"customerAddress\": \"444 TDH St, HCM, Vietnam\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{myIP}}/auth/orders/:id",
+							"host": [
+								"{{myIP}}"
+							],
+							"path": [
+								"auth",
+								"orders",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "{{orderId}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE order",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{myIP}}/auth/orders/:id",
+							"host": [
+								"{{myIP}}"
+							],
+							"path": [
+								"auth",
+								"orders",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "{{orderId}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET all order",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{myIP}}/auth/orders",
+							"host": [
+								"{{myIP}}"
+							],
+							"path": [
+								"auth",
+								"orders"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "cart",
+			"item": [
+				{
+					"name": "Add product in Cart",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var res =pm.response.json();\r",
+									"pm.collectionVariables.set(\"product_cart_ID\",res.data.productId);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"productId\": 2,\r\n    \"quantity\": 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{myIP}}/auth/carts",
+							"host": [
+								"{{myIP}}"
+							],
+							"path": [
+								"auth",
+								"carts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List of Cart",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{myIP}}/auth/cart",
+							"host": [
+								"{{myIP}}"
+							],
+							"path": [
+								"auth",
+								"cart"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete product in Cart",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{myIP}}/auth/carts/:id",
+							"host": [
+								"{{myIP}}"
+							],
+							"path": [
+								"auth",
+								"carts",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "{{product_cart_ID}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE user by email",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.collectionVariables.set(\"access_token\",null);\r",
+									"postman.setNextRequest();"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{myIP}}/auth/users/:email",
+							"host": [
+								"{{myIP}}"
+							],
+							"path": [
+								"auth",
+								"users",
+								":email"
+							],
+							"variable": [
+								{
+									"key": "email",
+									"value": "{{email}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:3000"
+		},
+		{
+			"key": "myIP",
+			"value": "192.168.0.3:3000",
+			"type": "string"
+		},
+		{
+			"key": "userId",
+			"value": ""
+		},
+		{
+			"key": "email",
+			"value": ""
+		},
+		{
+			"key": "passwod",
+			"value": ""
+		},
+		{
+			"key": "access_token",
+			"value": ""
+		},
+		{
+			"key": "productID",
+			"value": ""
+		},
+		{
+			"key": "category",
+			"value": ""
+		},
+		{
+			"key": "type",
+			"value": ""
+		},
+		{
+			"key": "orderId",
+			"value": ""
+		},
+		{
+			"key": "product_cart_ID",
+			"value": ""
+		}
+	]
+}
