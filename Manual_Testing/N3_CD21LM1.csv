@@ -1,0 +1,459 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Labels,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Blocks),Inward issue link (Blocks),Inward issue link (Blocks),Inward issue link (Blocks),Outward issue link (Blocks),Inward issue link (Cloners),Inward issue link (Cloners),Outward issue link (Cloners),Attachment,Custom field (Actual Result),Custom field (Actual Result),Custom field (Actual end),Custom field (Actual start),Custom field (Category),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Compass),Custom field (Development),Custom field (Epic Link),Custom field (Expected Result),Custom field (Expected Result),Custom field (Impact),Custom field (Issue color),Custom field (Locked forms),Custom field (Open forms),Custom field (Rank),Custom field (Request Type),Sprint,Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Test Level),Custom field (Test Level),Custom field (Test Level),Custom field (Test Level),Custom field (Test Level),Custom field (Test Level),Custom field (Test Steps),Custom field (Test Steps),Custom field (Testcase Result),Custom field (Testcase Result),Custom field (Total forms),Custom field ([CHART] Date of First Response),Status Category
+"SC-Resgister -If the purchase is successful, the item will be confirmed and shipped",N3-53,10296,Story,To Do,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Quang Truong,629814e3658d580068894d42,Quang Truong,629814e3658d580068894d42,05/Jan/23 5:10 PM,05/Jan/23 5:13 PM,05/Jan/23 5:15 PM,,,0,Purchase,"Test data 
+
+Ho: Lê
+
+Tên: Bảo
+
+Ngày sinh:  11/11/1998
+
+Số điện thoại: 12312321312
+
+Email: bao1671997@gmail.com
+
+Mật khẩu: lha987123",,Quang Truong,629814e3658d580068894d42,,,,,,,,,,,,,,,,,,Item is confirmed and shipped,,,,,,,,,,N3-8,Item is confirmed and shipped,,,,,,0|i001j3:,,,,,,,,,,,,,,System,,"1) Enter all required field with user data
+2) submit",,Pass,,,,To Do
+"SC - Verify Purchase& Login - Verify after order success, order history updated",N3-52,10295,Bug,Open,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Bảo Quốc,62980cd21648f2006962c155,05/Jan/23 5:07 PM,05/Jan/23 5:11 PM,05/Jan/23 5:15 PM,,,0,Purchase,,,Bảo Quốc,62980cd21648f2006962c155,,,,,,,,,,,,,,,,,05/Jan/23 5:11 PM;62980cd21648f2006962c155;order.png;https://dacthanhthuan2003.atlassian.net/secure/attachment/10088/order.png,order history dont update,,,,,,,,,,N3-8,order history must be updated,,,,,,0|i001iv:,,N3 Sprint 3,,,,,,,,,,,,System,,order success an item,,Fail,,,,To Do
+"SC - Log in - If successfully logged in, you will be redirected to the profile page",N3-51,10294,Story,To Do,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Quang Truong,629814e3658d580068894d42,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 5:07 PM,05/Jan/23 5:11 PM,05/Jan/23 5:07 PM,,,0,Login,"Test data 
+
+Ho: Dac
+
+Tên: Thuan
+
+Ngày sinh:  12/08/2003
+
+Số điện thoại: 0888190357
+
+Email: dtthuan.2003@gmail.com
+
+Mật khẩu: 12082003",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,,,,,05/Jan/23 5:10 PM;62980dec658d580068894b48;sc04.png;https://dacthanhthuan2003.atlassian.net/secure/attachment/10087/sc04.png,chuyển qua trang hồ sơ,,,,,,,,,,N3-6,chuyển qua trang hổ sơ,,,,,,0|i001in:,,N3 Sprint 3,,,,,,,,,,,,System,,"1) Enter all required field with user data
+2) Đăng nhập",,Pass,,,,To Do
+"SC-Resgister -If the registration is successful, you will be redirected to the profile page",N3-50,10293,Story,To Do,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Quang Truong,629814e3658d580068894d42,Quang Truong,629814e3658d580068894d42,05/Jan/23 5:03 PM,05/Jan/23 5:09 PM,05/Jan/23 5:07 PM,,,0,Register,"Test data 
+
+Ho: Lê
+
+Tên: Bảo
+
+Ngày sinh:  11/11/1998
+
+Số điện thoại: 12312321312
+
+Email: bao1671997@gmail.com
+
+Mật khẩu: lha987123",,Quang Truong,629814e3658d580068894d42,,,,,,,,,,,,,,,,N3-44,05/Jan/23 5:09 PM;62980dec658d580068894b48;sc04.png;https://dacthanhthuan2003.atlassian.net/secure/attachment/10086/sc04.png,chuyển qua trang hồ sơ,,,,,,,,,,N3-5,chuyển qua trang hổ sơ,,,,,,0|i001if:,,N3 Sprint 3,,,,,,,,,,,,System,,"1) Enter all required field with user data
+2) Đăng Ký",,Pass,,,,To Do
+"SC - Verify Purchase - Verify after order success, page is redirected to purchase success page",N3-49,10292,Story,To Do,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Bảo Quốc,62980cd21648f2006962c155,05/Jan/23 5:02 PM,05/Jan/23 5:10 PM,05/Jan/23 5:15 PM,,,0,Purchase,"Testdata
+
+Họ: Dac
+
+Tên: Thuan
+
+Số điện thoại: 0888190357
+
+Địa chỉ: 12 TDT",,Bảo Quốc,62980cd21648f2006962c155,,,,,,,,,,,,,,,,,,redirected to purchase success page,,,,,,,,,,N3-5,redirect to purchase success page,,,,,,0|i001i7:,,N3 Sprint 3,,,,,,,,,,,,System,,"1) Enter all required fields.
+2) Submit",,Pass,,,,To Do
+IP05- Search - Check search field invalid,N3-48,10291,Bug,Open,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Quang Truong,629814e3658d580068894d42,Bảo Quốc,62980cd21648f2006962c155,05/Jan/23 4:54 PM,05/Jan/23 4:58 PM,05/Jan/23 5:15 PM,,,0,Search,,,Bảo Quốc,62980cd21648f2006962c155,,,,,,,,,N3-34,N3-35,N3-37,N3-36,,,,,,some required field are not valid,,,,,,,,,,N3-7,all required field must be valided,,,,,,0|i001hz:,,N3 Sprint 2,,,,,,,,,,,,Integration,,1) Enter all required field to search,,Fail,,,,To Do
+SC- Register - If email exists will reset the registration table,N3-47,10290,Story,To Do,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 4:52 PM,05/Jan/23 5:06 PM,05/Jan/23 4:53 PM,,,0,Register,"Testdata
+
+Họ: Dac
+
+Tên: Thuan
+
+Ngày sinh: 12/08/2003
+
+Số điện thoại: 0888190357
+
+Email: [dtthuan.2003@gmail.com|mailto:dtthuan.2003@gmail.com]
+
+Mật khẩu: 12082003",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,,,,,,Reset lại form đăng ký,,,,,,,,,,N3-5,Reset lại form đăng ký,,,,,,0|i001hr:,,N3 Sprint 3,,,,,,,,,,,,System,,"1) Nhập tất cả các trường.
+2) Submit",,Pass,,,,To Do
+IP06-Resgister by Phone number-Check user can be registered,N3-46,10289,Story,To Do,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Quang Truong,629814e3658d580068894d42,Hoang An,629c76aac97b1b0068795436,05/Jan/23 4:49 PM,05/Jan/23 5:14 PM,05/Jan/23 5:15 PM,,,0,Register,"Test data 
+
+Nhập số điện thoại: ",,Hoang An,629c76aac97b1b0068795436,,,,,,,,,,,,,,,,,,"1)Register page should be redirected page enter the correct confirm code
+2) Register page should be created password then redirected Account page",,,,,,,,,,,"1)Register page should be redirect page enter the correct confirm code
+2) Register page should be create password then redirect Account page",,,,,,0|i001hj:,,N3 Sprint 2,,,,,,,,,,,,Integration,,"1) Enter field with phoen data
+2) Gửi mã xác nhận",,Pass,,,,To Do
+IP04- Login - Check user login invalid,N3-45,10288,Story,To Do,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Quang Truong,629814e3658d580068894d42,Bảo Quốc,62980cd21648f2006962c155,05/Jan/23 4:48 PM,05/Jan/23 4:57 PM,05/Jan/23 4:50 PM,,,0,Login,,,Bảo Quốc,62980cd21648f2006962c155,,,,,,,,,N3-22,N3-25,N3-23,N3-26,,,,,,some required field are not valid,,,,,,,,,,N3-6,all required field must be valided,,,,,,0|i001hb:,,N3 Sprint 2,,,,,,,,,,,,Integration,,"1) Enter all required field with user data
+2) Đăng nhập",,Pass,,,,To Do
+SC-Resgister -Registration is overdue,N3-44,10287,Story,To Do,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Quang Truong,629814e3658d580068894d42,Quang Truong,629814e3658d580068894d42,05/Jan/23 4:47 PM,05/Jan/23 5:13 PM,05/Jan/23 5:15 PM,,,0,Register,"Test data 
+
+Ho: Lê
+
+Tên: Bảo
+
+Ngày sinh:  11/11/1998
+
+Số điện thoại: 12312321312
+
+Email: bao1671997@gmail.com
+
+Mật khẩu: lha987123",,Quang Truong,629814e3658d580068894d42,,,,,,,,,,,,,,N3-50,,,,too many registrations appear,,,,,,,,,,N3-5,subscribed too many times,,,,,,0|i001h3:,,N3 Sprint 3,,,,,,,,,,,,System,,"1) Enter all required field with user data
+2) Đăng Ký",,Pass,,,,To Do
+IP02-Resgister by Email -Check user can be registered,N3-43,10286,Story,To Do,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Quang Truong,629814e3658d580068894d42,Hoang An,629c76aac97b1b0068795436,05/Jan/23 4:40 PM,05/Jan/23 5:10 PM,05/Jan/23 5:15 PM,,,0,Register,"Test data 
+
+Ho: Lê
+
+Tên: Ân
+
+Ngày sinh:  11/11/1998
+
+Số điện thoại: 12312321312
+
+Email: hoangan1671998@gmail.com
+
+Mật khẩu: lha987123",,Hoang An,629c76aac97b1b0068795436,,,,,,,,,,,,,,,,N3-40,,Register page should be redirected Account page,,,,,,,,,,N3-5,Register page should be redirect Account page,,,,,,0|i001gv:,,N3 Sprint 2,,,,,,,,,,,,Integration,,"1) Enter all required field with user data
+2) Đăng Ký",,Pass,,,,To Do
+IP03- Purchase - Verify valid purchase information,N3-42,10285,Story,To Do,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Quang Truong,629814e3658d580068894d42,Bảo Quốc,62980cd21648f2006962c155,05/Jan/23 4:39 PM,05/Jan/23 4:43 PM,05/Jan/23 5:15 PM,,,0,,"Test data 
+
+Họ và tên: #!
+
+Số điện thoại: dsadasda
+
+Địa chỉ: !#",,Bảo Quốc,62980cd21648f2006962c155,,,,,,,,,N3-39,N3-41,N3-38,,,,,,,some required fields are invalid,,,,,,,,,,N3-8,All required field must be validated,,,,,,0|i001gn:,,N3 Sprint 2,,,,,,,,,,,,Integration,,"1) Enter all required field with existing user data
+2) Hoàn tất đơn hàng",,Fail,,,,To Do
+P03 - Purchase - Verify characters must not be allowed in mobile number field,N3-41,10284,Story,To Do,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Bảo Quốc,62980cd21648f2006962c155,05/Jan/23 4:33 PM,05/Jan/23 4:43 PM,05/Jan/23 5:15 PM,,,0,Purchase,"Test data
+
+dsadsadas",,Bảo Quốc,62980cd21648f2006962c155,,,,,,,,,,,,,N3-42,,,,,An error message was showed,,,,,,,,,,N3-8,"An error message ""Số điện thoại không hợp lệ (độ dài từ 8 - 11 ký tự, không chứa ký tự đặc biệt và khoảng trắng)"" must be shown",,,,,,0|i001gf:,,N3 Sprint 1,,,,,,,,,,,,Unit,,1) Do not enter any value in all required fields.,,Pass,,,,To Do
+IP01-Resgister by Email -Verify user is not create twice,N3-40,10283,Story,To Do,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Quang Truong,629814e3658d580068894d42,Hoang An,629c76aac97b1b0068795436,05/Jan/23 4:30 PM,05/Jan/23 5:04 PM,05/Jan/23 4:33 PM,,,0,Register,"Test data 
+
+Ho: Lê
+
+Tên: Ân
+
+Ngày sinh:  11/11/1998
+
+Số điện thoại: 12312321312
+
+Email: [bao0761997@gmail.com|mailto:bao0761997@gmail.com]
+
+Mật khẩu: lha987123",,Hoang An,629c76aac97b1b0068795436,,,,,,,,,,,,,,N3-43,,,,"Message displayed""Email address already exist""",,,,,,,,,,N3-5,"Message Should be displayed""Email address already exist""",,,,,,0|i001g7:,,N3 Sprint 2,,,,,,,,,,,,Integration,,"1) Enter all required field with existing user data
+2) Đăng Ký",,Pass,,,,To Do
+P02 - Purchase - Verify required field must not be blank,N3-39,10282,Story,To Do,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Bảo Quốc,62980cd21648f2006962c155,05/Jan/23 4:23 PM,05/Jan/23 4:43 PM,05/Jan/23 5:15 PM,,,0,Purchase,"Test data
+
+blank",,Bảo Quốc,62980cd21648f2006962c155,,,,,,,,,,,,,N3-42,,,,,An error message was showed,,,,,,,,,,N3-8,An error message must be shown,,,,,,0|i001fz:,,N3 Sprint 1,,,,,,,,,,,,Unit,,1) Do not enter any value in all required fields.,,Pass,,,,To Do
+P01 - Purchase - Verify Special characters are not allowed,N3-38,10281,Bug,Open,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Bảo Quốc,62980cd21648f2006962c155,05/Jan/23 4:07 PM,05/Jan/23 4:43 PM,05/Jan/23 5:15 PM,,,0,Purchase,"Test data
+
+#!",,Bảo Quốc,62980cd21648f2006962c155,,,,,,,,,,,,,N3-42,,,,05/Jan/23 4:17 PM;62980cd21648f2006962c155;p01.png;https://dacthanhthuan2003.atlassian.net/secure/attachment/10078/p01.png,An error message don't  show,,,,,,,,,,N3-8,An error message must be shown,,,,,,0|hzzzzq:,,N3 Sprint 1,,,,,,,,,,,,Unit,,1) Enter Special characters in fields.,,Fail,,,,To Do
+S04 - Search - Verify number cannot be entered,N3-37,10280,Bug,Open,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 4:06 PM,05/Jan/23 4:58 PM,05/Jan/23 4:29 PM,,,0,Search,"Test data
+
+Search: 123",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,N3-48,,,N3-36,05/Jan/23 4:22 PM;62980dec658d580068894b48;search_number.png;https://dacthanhthuan2003.atlassian.net/secure/attachment/10082/search_number.png,An error message don't  show,,,,,,,,,,N3-7,An error message must be shown,,,,,,0|i001fj:,,N3 Sprint 1,,,,,,,,,,,,Unit,,1) Enter characters in Search field.,,Fail,,,,To Do
+S03 - Search - Verify characters are not allowed,N3-36,10279,Bug,Open,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 4:04 PM,05/Jan/23 4:58 PM,05/Jan/23 4:19 PM,,,0,Search,"Test data
+
+Search: abc",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,N3-48,N3-37,,N3-35,05/Jan/23 4:21 PM;62980dec658d580068894b48;search_characters.png;https://dacthanhthuan2003.atlassian.net/secure/attachment/10081/search_characters.png,An error message don't  show,,,,,,,,,,N3-7,An error message must be shown,,,,,,0|i001fb:,,N3 Sprint 1,,,,,,,,,,,,Unit,,1) Enter characters in Search field.,,Fail,,,,To Do
+S02 - Search - Verify Special characters are not allowed ,N3-35,10278,Bug,Open,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 3:54 PM,05/Jan/23 4:58 PM,05/Jan/23 4:17 PM,,,0,Register,"Test data
+
+Search:!z@#$",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,N3-48,N3-36,,N3-34,05/Jan/23 4:18 PM;62980dec658d580068894b48;search_special.png;https://dacthanhthuan2003.atlassian.net/secure/attachment/10079/search_special.png,An error message don't  show,,,,,,,,,,N3-5,An error message must be shown,,,,,,0|i001f3:,,N3 Sprint 1,,,,,,,,,,,,Unit,,1) Enter Special characters in Search field.,,Fail,,,,To Do
+S01 - Search - Verify Search must not be blank,N3-34,10277,Bug,Open,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 3:48 PM,05/Jan/23 4:58 PM,05/Jan/23 4:18 PM,,,0,Search,"Test data
+
+Search:",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,N3-48,N3-35,,N3-33,05/Jan/23 4:19 PM;62980dec658d580068894b48;search_blank.png;https://dacthanhthuan2003.atlassian.net/secure/attachment/10080/search_blank.png,"An error message ""Search must not be blank"" wasn't be shown",,,,,,,,,,N3-7,"An error message ""Search must not be blank""must be shown",,,,,,0|i001ev:,,N3 Sprint 1,,,,,,,,,,,,Unit,,1) leave the search bar empty,,Fail,,,,To Do
+R20 - Register - Verify First character cannot be space in Password,N3-33,10276,Bug,Open,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 3:44 PM,05/Jan/23 4:15 PM,05/Jan/23 4:15 PM,,,0,Register,"Test data
+
+Họ: Dac
+
+Tên: Thuan
+
+Ngày sinh: 12/08/2003
+
+Số điện thoại: 0888190357
+
+Email: dtthuan.2003@gmail.com
+
+Mật khẩu:                12082003",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,,N3-34,,N3-32,,"An error message ""First character cannot be space "" wasn't be shown",,,,,,,,,,N3-5,"An error message ""First character cannot be space "" must be shown",,,,,,0|i001en:,,N3 Sprint 1,,,,,,,,,,,,Unit,,"1) Enter all required fields.
+2) Submit.",,Fail,,,,To Do
+R19 - Register - Verify First character cannot be space in Email,N3-32,10275,Bug,Open,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 3:44 PM,05/Jan/23 4:14 PM,05/Jan/23 4:14 PM,,,0,Register,"Test data
+
+Họ: Dac
+
+Tên: Thuan
+
+Ngày sinh: 12/08/2003
+
+Số điện thoại: 0888190357
+
+Email:            dtthuan.2003@gmail.com
+
+Mật khẩu: 12082003",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,,N3-33,,N3-31,,"An error message ""
+Password is too short ""First character cannot be space "" wasn't be shown",,,,,,,,,,N3-5,"An error message ""First character cannot be space "" must be shown",,,,,,0|i001ef:,,N3 Sprint 1,,,,,,,,,,,,Unit,,"1) Enter all required fields.
+2) Submit.",,Fail,,,,To Do
+R18 - Register - Verify First character cannot be space in Phone Number,N3-31,10274,Bug,Open,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 3:42 PM,05/Jan/23 4:14 PM,05/Jan/23 4:14 PM,,,0,Register,"Test data
+
+Họ: Dac
+
+Tên: Thuan
+
+Ngày sinh: 12/08/2003
+
+Số điện thoại:                      0888190357
+
+Email: dtthuan.2003@gmail.com
+
+Mật khẩu: 12082003",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,,N3-32,,N3-30,,"An error message ""
+Password is too short ""First character cannot be space "" wasn't be shown",,,,,,,,,,N3-5,"An error message ""First character cannot be space "" must be shown",,,,,,0|i001e7:,,N3 Sprint 1,,,,,,,,,,,,Unit,,"1) Enter all required fields.
+2) Submit.",,Fail,,,,To Do
+R17 - Register - Verify First character cannot be space in Date of birth,N3-30,10273,Bug,Open,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 3:41 PM,05/Jan/23 4:14 PM,05/Jan/23 4:31 PM,,,0,Register,"Test data
+
+Họ: Dac
+
+Tên: Thuan
+
+Ngày sinh:                12/08/2003
+
+Số điện thoại: 0888190357
+
+Email: dtthuan.2003@gmail.com
+
+Mật khẩu: 12082003",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,,N3-31,,N3-29,,"An error message ""
+Password is too short ""First character cannot be space "" wasn't be shown",,,,,,,,,,N3-5,"An error message ""First character cannot be space "" must be shown",,,,,,0|i001dz:,,N3 Sprint 1,,,,,,,,,,,,Unit,,"1) Enter all required fields.
+2) Submit.",,Fail,,,,To Do
+R16 - Register - Verify First character cannot be space in first name,N3-29,10272,Bug,Open,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 3:39 PM,05/Jan/23 4:14 PM,05/Jan/23 4:14 PM,,,0,Register,"Test data
+
+Họ:     dac
+
+Tên: Thuan
+
+Ngày sinh: 12082003
+
+Số điện thoại: 0888190357
+
+Email: dtthuan.2003@gmail.com
+
+Mật khẩu: 12082003",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,,N3-30,,N3-28,,"An error message ""
+Password is too short ""First character cannot be space "" wasn't be shown",,,,,,,,,,N3-5,"An error message ""First character cannot be space "" must be shown",,,,,,0|i001dr:,,N3 Sprint 1,,,,,,,,,,,,Unit,,"1) Enter all required fields.
+2) Submit.",,Fail,,,,To Do
+R15 - Register - Verify First character cannot be space in last name,N3-28,10271,Bug,Open,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 3:37 PM,05/Jan/23 4:14 PM,05/Jan/23 4:13 PM,,,0,Register,"Test data
+
+Họ: Dac
+
+Tên:               Thuan
+
+Ngày sinh: 12082003
+
+Số điện thoại: 0888190357
+
+Email: dtthuan.2003@gmail.com
+
+Mật khẩu: 12082003",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,,N3-29,,N3-27,,"An error message ""
+Password is too short ""First character cannot be space "" wasn't be shown",,,,,,,,,,N3-5,"An error message ""First character cannot be space "" must be shown",,,,,,0|i001dj:,,N3 Sprint 1,,,,,,,,,,,,Unit,,"1) Enter all required fields.
+2) Submit.",,Fail,,,,To Do
+R14 - Register - Verify Password is too short less than 5 characters,N3-27,10270,Story,To Do,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 3:29 PM,05/Jan/23 4:13 PM,05/Jan/23 4:13 PM,,,0,Register,"Test data
+
+Họ: 123
+
+Tên: Thuan
+
+Ngày sinh: 12082003
+
+Số điện thoại: 0888190357
+
+Email: dtthuan.2003@gmail.com
+
+Mật khẩu: 1208",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,,N3-28,,N3-21,,"An error message ""
+Password is too short"" was be shown",,,,,,,,,,N3-5,"An error message ""
+Password is too short"" must be shown",,,,,,0|i001db:,,N3 Sprint 1,,,,,,,,,,,,Unit,,"1) Enter all required fields.
+2) Submit.",,Pass,,,,To Do
+L04 - Log in- Verify Email Special character are not allowed,N3-26,10269,Story,To Do,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 3:16 PM,05/Jan/23 4:57 PM,05/Jan/23 4:10 PM,,,0,Login,"Test data
+
+Email: !@#
+
+Mật khẩu: 12082003",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,N3-45,,,,,"An error message ""Invalid phone number"" was be shown",,,,,,,,,,N3-6,"An error message ""Invalid phone number"" must be shown",,,,,,0|i001d3:,,N3 Sprint 1,,,,,,,,,,,,Unit,,"1) Enter all required fields.
+2) Submit.",,Pass,,,,To Do
+L03 - Log in- Verify Password does not contain special characters,N3-25,10268,Story,To Do,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Quang Truong,629814e3658d580068894d42,05/Jan/23 3:16 PM,05/Jan/23 4:57 PM,05/Jan/23 4:10 PM,,,0,Login,"Test data
+
+Email: dtthuan.2003@gmail.com
+
+Mật khẩu: ",,Quang Truong,629814e3658d580068894d42,,,,,,,,,,,,,N3-45,,,,,"An error message ""invalid password"" was be shown",,,,,,,,,,N3-6,"An error message ""invalid password"" must be shown",,,,,,0|i001cv:,,N3 Sprint 1,,,,,,,,,,,,Unit,,"1) Enter all required fields.
+2) Submit.",,Pass,,,,To Do
+L02 - Log in- Verify Password must not be blank,N3-23,10266,Story,To Do,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 3:14 PM,05/Jan/23 4:57 PM,05/Jan/23 4:10 PM,,,0,Login,"Test data
+
+Email: dtthuan.2003@gmail.com
+
+Mật khẩu: ",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,N3-45,,,,,"An error message ""Please fill out this field"" was be shown",,,,,,,,,,N3-6,"An error message ""Please fill out this field"" must be shown",,,,,,0|i001cn:,,N3 Sprint 1,,,,,,,,,,,,Unit,,"1) Enter all required fields.
+2) Submit.",,Pass,,,,To Do
+L01- Log in- Verify Email must not be blank,N3-22,10265,Story,To Do,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 3:07 PM,05/Jan/23 4:57 PM,05/Jan/23 3:13 PM,,,0,Login,"Test data
+
+Email:
+
+Mật khẩu: 12082003",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,N3-45,,,,,"An error message ""Please fill out this field"" was be shown",,,,,,,,,,N3-6,"An error message ""Please fill out this field"" must be shown",,,,,,0|i001cf:,,N3 Sprint 1,,,,,,,,,,,,Unit,,"1) Enter all required fields.
+2) Submit.",,Pass,,,,To Do
+R12 - Register - Verify First Name do not enter numbers,N3-21,10264,Bug,Open,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 3:03 PM,05/Jan/23 4:52 PM,05/Jan/23 3:28 PM,,,0,Register,"Test data
+
+Họ: 123
+
+Tên: Thuan
+
+Ngày sinh: 12082003
+
+Số điện thoại: 0888190357
+
+Email: dtthuan.2003@gmail.com
+
+Mật khẩu: 12082003",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,,N3-27,,N3-20,,"An error message ""Invalid first name"" was be shown",,,,,,,,,,N3-5,"An error message ""Invalid first name"" must be shown",,,,,,0|i001c7:,,N3 Sprint 1,,,,,,,,,,,,Unit,,"1) Enter all required fields.
+2) Submit.",,Fail,,,,To Do
+R11 - Register - Verify Name cannot  enter number,N3-20,10263,Story,To Do,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 2:53 PM,05/Jan/23 3:15 PM,05/Jan/23 3:00 PM,,,0,Register,"Test data
+
+Họ: Dac
+
+Tên: 123
+
+Ngày sinh: 12082003
+
+Số điện thoại: 0888190357
+
+Email: dtthuan.2003@gmail.com
+
+Mật khẩu: 12082003",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,,N3-21,,N3-19,,"An error message ""Invalid name"" was be shown",,,,,,,,,,N3-5,"An error message ""Invalid name"" must be shown",,,,,,0|i001bz:,,N3 Sprint 1,,,,,,,,,,,,Unit,,"1) Enter all required fields.
+2) Submit.",,Pass,,,,To Do
+R10 - Register - Verify Email Special Character are not allowed,N3-19,10262,Bug,Open,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 2:47 PM,05/Jan/23 2:53 PM,05/Jan/23 2:52 PM,,,0,Register,"Test data
+
+Họ: Dac
+
+Tên: Thuan
+
+Ngày sinh: 12082003
+
+Số điện thoại: 0888190357
+
+Email: !@#
+
+Mật khẩu: 12082003",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,,N3-20,,N3-18,,"An error message ""Invalid email"" was be shown",,,,,,,,,,N3-5,"An error message ""Special are not allowed"" must be shown",,,,,,0|i001br:,,N3 Sprint 1,,,,,,,,,,,,Unit,,"1) Enter all required fields.
+2) Submit.",,Fail,,,,To Do
+R13 - Register - Verify Email is not valid,N3-18,10261,Story,To Do,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 2:44 PM,05/Jan/23 4:12 PM,05/Jan/23 4:12 PM,,,0,Register,"Test data
+
+Họ: Dac
+
+Tên: Thuan
+
+Ngày sinh: 12082003
+
+Số điện thoại: 0888190357
+
+Email: dtthuan.2003@gmail
+
+Mật khẩu: 12082003",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,,N3-19,,N3-16,,"An error message ""Invalid email"" was be shown",,,,,,,,,,N3-5,"An error message ""Invalid email"" must be shown",,,,,,0|i001bj:,,N3 Sprint 1,,,,,,,,,,,,Unit,,"1) Enter all required fields.
+2) Submit.",,Pass,,,,To Do
+R09 - Register - Verify Last Name Special character are not allowed,N3-17,10260,Bug,Open,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 2:36 PM,05/Jan/23 2:36 PM,05/Jan/23 4:31 PM,,,0,Register,"Test data
+
+Họ: Dac
+
+Tên: !@#
+
+Ngày sinh: 12/08/2003
+
+Số điện thoại: 0888190357
+
+Email: dtthuan.2003@gmail.com
+
+Mật khẩu: 12082003",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,,,,N3-16,,"An error message ""Special Character are not allowed"" wasn't be shown",,,,,,,,,,N3-5,"An error message ""Special Character are not allowed"" must be shown",,,,,,0|i001bb:,,N3 Sprint 1,,,,,,,,,,,,Unit,,"1) Enter all required fields.
+2) Submit.",,Fail,,,,To Do
+R08 - Register - Verify Date of birth character are not allowed,N3-16,10259,Story,To Do,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 2:34 PM,05/Jan/23 2:46 PM,05/Jan/23 2:42 PM,,,0,Register,"Test data
+
+Họ: Dac
+
+Tên: Thuan
+
+Ngày sinh: abc
+
+Số điện thoại: 0888190357
+
+Email: dtthuan.2003@gmail.com
+
+Mật khẩu: 12082003",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,,N3-17,N3-18,N3-15,,"An error message ""Invalid date of birth"" was be shown",,,,,,,,,,N3-5,"An error message ""Invalid date of birth"" must be shown",,,,,,0|i001b3:,,N3 Sprint 1,,,,,,,,,,,,Unit,,"1) Enter all required fields.
+2) Submit.",,Pass,,,,To Do
+R07 - Register - Verify First Name Special character are not allowed,N3-15,10258,Bug,Open,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 2:29 PM,05/Jan/23 4:31 PM,05/Jan/23 4:31 PM,,,0,Register,"Test data
+
+Họ: !@#
+
+Tên: Thuan
+
+Ngày sinh: 12/08/2003
+
+Số điện thoại: 0888190357
+
+Email: dtthuan.2003@gmail.com
+
+Mật khẩu: 12082003",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,,N3-16,,N3-14,05/Jan/23 4:27 PM;62980dec658d580068894b48;firstname_space.png;https://dacthanhthuan2003.atlassian.net/secure/attachment/10083/firstname_space.png,"An error message ""Special Character are not allowed"" wasn't be shown",,,,,,,,,,N3-5,"An error message ""Special Character are not allowed"" must be shown",,,,,,0|hzzzzp:,,N3 Sprint 1,,,,,,,,,,,,Unit,,"1) Enter all required fields.
+2) Submit.",,Fail,,,,To Do
+R06 - Register - Verify Password must not be blank,N3-14,10257,Story,To Do,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 2:29 PM,05/Jan/23 2:46 PM,05/Jan/23 2:29 PM,,,0,Register,"Test data
+
+Họ: Dac
+
+Tên: Thuan
+
+Ngày sinh: 12/08/2003
+
+Số điện thoại: 0888190357
+
+Email: dtthuan.2003@gmail.com
+
+Mật khẩu: ",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,,N3-15,,N3-13,,"An error message ""Please fill out this field"" was showed",,,,,,,,,,N3-5,"An error message ""Please fill out this field"" must be shown",,,,,,0|i001an:,,N3 Sprint 1,,,,,,,,,,,,Unit,,"1) Enter all required fields.
+2) Submit.",,Pass,,,,To Do
+R05 - Register - Verify Email must not be blank,N3-13,10256,Story,To Do,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 2:27 PM,05/Jan/23 2:46 PM,05/Jan/23 4:29 PM,,,0,Register,"Test data
+
+Họ: Dac
+
+Tên: Thuan
+
+Ngày sinh: 12/08/2003
+
+Số điện thoại: 0888190357
+
+Email: 
+
+Mật khẩu: 12082003",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,,N3-14,,N3-12,,"An error message ""Please fill out this field"" was showed",,,,,,,,,,N3-5,"An error message ""Please fill out this field"" must be shown",,,,,,0|i001af:,,N3 Sprint 1,,,,,,,,,,,,Unit,,"1) Enter all required fields.
+2) Submit.",,Pass,,,,To Do
+R04 - Register - Verify Phone Number must not be blank,N3-12,10255,Story,To Do,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 2:24 PM,05/Jan/23 2:46 PM,05/Jan/23 4:29 PM,,,0,Register,"Test data
+
+Họ: Dac
+
+Tên: Thuan
+
+Ngày sinh: 12/08/2003
+
+Số điện thoại: 
+
+Email: [dtthuan.2003@gmail.com|mailto:dtthuan.2003@gmail.com]
+
+Mật khẩu: 12082003",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,,N3-13,,N3-11,,"An error message ""Please fill out this field"" was showed",,,,,,,,,,N3-5,"An error message ""Please fill out this field"" must be shown",,,,,,0|i001a7:,,N3 Sprint 1,,,,,,,,,,,,Unit,,"1) Enter all required fields.
+2) Submit.",,Pass,,,,To Do
+R03 - Register - Verify Date of birth must not be blank,N3-11,10254,Story,To Do,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 2:22 PM,05/Jan/23 2:24 PM,05/Jan/23 4:29 PM,,,0,Register,"Test data
+
+Họ: Dac
+
+Tên: Thuan
+
+Ngày sinh: 
+
+Số điện thoại: 0888190357
+
+Email: [dtthuan.2003@gmail.com|mailto:dtthuan.2003@gmail.com]
+
+Mật khẩu: 12082003",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,,N3-12,,N3-9,,"An error message ""Please fill out this field"" was showed",,,,,,,,,,N3-5,"An error message ""Please fill out this field"" must be shown",,,,,,0|i0019z:,,N3 Sprint 1,,,,,,,,,,,,Unit,,"1) Enter all required fields.
+2) Submit.",,Pass,,,,To Do
+R02 - Register - Verify First Name must not be blank,N3-10,10253,Story,To Do,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 2:21 PM,05/Jan/23 4:31 PM,05/Jan/23 4:28 PM,,,0,Register,"Test data
+
+Họ: Dac
+
+Tên: 
+
+Ngày sinh: 12/08/2003
+
+Số điện thoại: 0888190357
+
+Email: [dtthuan.2003@gmail.com|mailto:dtthuan.2003@gmail.com]
+
+Mật khẩu: 12082003",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,,,,N3-9,,"An error message ""Please fill out this field"" was showed",,,,,,,,,,N3-5,"An error message ""Please fill out this field"" must be shown",,,,,,0|hzzzzn:,,N3 Sprint 1,,,,,,,,,,,,Unit,,"1) Enter all required fields.
+2) Submit.",,Pass,,,,To Do
+R01 - Register - Verify Last Name must not be blank,N3-9,10252,Story,To Do,N3,N3_CD21LM1,software,Đắc Thanh Thuận,62980dec658d580068894b48,,Medium,,,,Đắc Thanh Thuận,62980dec658d580068894b48,Đắc Thanh Thuận,62980dec658d580068894b48,05/Jan/23 2:20 PM,05/Jan/23 4:33 PM,05/Jan/23 4:31 PM,,,0,Register,"Test data
+
+Họ:
+
+Tên: Thuan
+
+Ngày sinh: 12/08/2003
+
+Số điện thoại: 0888190357
+
+Email: [dtthuan.2003@gmail.com|mailto:dtthuan.2003@gmail.com]
+
+Mật khẩu: 12082003",,Đắc Thanh Thuận,62980dec658d580068894b48,,,,,,,,,,,,,,N3-10,N3-11,,,"An error message ""Please fill out this field"" was showed",,,,,,,,,,N3-5,"An error message ""Please fill out this field"" must be shown",,,,,,0|hzzzzj:,,N3 Sprint 1,,,,,,,,,,,,Integration,,"1) Enter all required fields.
+2) Submit.",,Pass,,,,To Do
